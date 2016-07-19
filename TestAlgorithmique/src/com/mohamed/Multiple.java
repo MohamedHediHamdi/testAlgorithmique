@@ -2,7 +2,7 @@ package com.mohamed;
 
 public class Multiple {
 
-	private void displayMagicalNumber(int plMin, int plMax) {
+	public void displayMagicalNumber(int plMin, int plMax) {
 		int i = plMin;
 		while (i <= plMax) {
 			int div3 = i % 3;
